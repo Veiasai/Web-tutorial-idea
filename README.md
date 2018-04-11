@@ -18,3 +18,6 @@
 * 一般来说，遵循默认的结构，不需要额外配置，但还是建议检查一下（见图片文件）
 * tomcat 安装好之后，idea里右上角edit（见图片），deployment里面添加war文件（exploded是热加载）
 
+#### 修复bug记录：
+* 引入了略有问题的mysql connector， 已修复。
+
