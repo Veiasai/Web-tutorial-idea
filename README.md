@@ -5,6 +5,7 @@
 
 #### 注意事项：
 * 带有main函数的class可以直接右键run， usermanager注意添加运行参数（这个懒得截图了，百度吧）
+* 因为cfg.xml已经开启了自动建表（hbm2ddl.auto属性，update）， 所以不用手动到数据库建表，第一次跑store参数，第二次跑list即可
 * 共有三个地方需要填写数据库信息，App class， hibernate.cfg.xml， webapp下面的test.jsp
 * jdk9缺少了一些奇怪的包，已经添加在依赖项中
 * 顺手最新版的spring + struts + hibernate全整合了，关于配置项等待下期更新...
