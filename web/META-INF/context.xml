@@ -8,6 +8,6 @@
 		      username="root" 
 		      password="woshiqiangmima123456"
 		      driverClassName="com.mysql.jdbc.Driver"
-		      url="jdbc:mysql://202.120.40.109:23359/test" />
+		      url="jdbc:mysql://xxx/test" />
 </Context>
 
